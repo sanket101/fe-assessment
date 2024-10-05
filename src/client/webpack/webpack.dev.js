@@ -11,7 +11,7 @@ module.exports = merge(common, {
       directory: './dist',
     },
     hot: true,
-    port: 3000,
+    port: 3001,
     open: true,
   },
 

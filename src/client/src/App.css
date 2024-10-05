@@ -1,0 +1,67 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.app {
+    padding: 20px;
+}
+.numeric-data-container {
+    display: flex;
+    margin: 20px 0;
+}
+
+.geo-location {
+    width: 25%;
+}
+
+.vehicle-attributes {
+    width: 75%;
+}
+
+.bar-monitor {
+    height: 30px;
+    border: 1px solid black;
+}
+
+.filled-data {
+    height: 100%;
+    background-color: darkgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.filled-text {
+    width: max-content;
+    padding: 0 10px;
+}
+
+.monitor-bar-container {
+    margin: 16px;
+}
+
+.monitor-bar-container > h4 {
+    margin: 8px 0;
+}
+
+.flex-display {
+    display: flex;
+    margin: 16px;
+}
+
+.odometer-attribute {
+    margin-left: 20px;
+}
+
+.line-graph-container {
+    margin: 20px;
+}
+
+.line-graph-container canvas {
+    height: 300px !important;
+
+    @media (max-width: 600px) {
+        height: auto !important;
+    }
+}
