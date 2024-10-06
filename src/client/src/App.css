@@ -62,6 +62,7 @@
     height: 300px !important;
 }
 
+/* CSS for smaller device */
 @media (max-width: 600px) {
     .numeric-data-container {
         flex-direction: column;
