@@ -60,8 +60,18 @@
 
 .line-graph-container canvas {
     height: 300px !important;
+}
 
-    @media (max-width: 600px) {
+@media (max-width: 600px) {
+    .numeric-data-container {
+        flex-direction: column;
+    }
+
+    .geo-location {
+        width: 100%;
+    }
+
+    .line-graph-container canvas {
         height: auto !important;
     }
 }
